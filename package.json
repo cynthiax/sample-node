@@ -1,0 +1,26 @@
+{
+    "name": "simple-node-app1",
+    "description": "Simple node app for Screwdriver E2E testing",
+    "version": "0.0.1",
+    "scripts": {
+        "test": "ytestrunner"
+    },
+    "dependencies": {
+        "express": "*"
+    },
+    "devDependencies": {
+        "ytestrunner": "*",
+        "yuitest": "*"
+    },
+    "yahoo": {
+        "bugzilla": {
+            "product": "Screwdriver",
+            "component": "General"
+        },
+        "custodian": {
+            "email": "screwdriver-test-builds@yahoo-inc.com",
+            "url": "http://twiki.corp.yahoo.com/view/Cocktails/ScrewDriver"
+        }
+    }
+}
+
